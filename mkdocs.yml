@@ -1,5 +1,7 @@
 site_name: Simnibs Cifti Tools 
-theme: readthedocs 
+theme: material
+plugins:
+ -search 
 pages:
 - Project Overview: project_overview.md 
 - System Requirements: system_requirements.md 
