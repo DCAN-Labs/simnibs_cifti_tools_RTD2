@@ -1,0 +1,10 @@
+site_name: Simnibs Cifti Tools 
+theme: readthedocs
+pages:
+- Project Overview: project_overview.md 
+- System Requirements: system_requirements.md 
+- Preparation Overview: prep_overview.md 
+- Usage: usage.md
+- Outputs: outputs.md
+- Known Issues: known_issues.md
+- Contributors: contributors.md
