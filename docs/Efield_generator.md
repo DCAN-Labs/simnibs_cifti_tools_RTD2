@@ -11,6 +11,6 @@
 
  ## Usage Examples 
 
- 
-![Simnibs Cifti Tools Efield Generation Flow Diagram](TMS_flow.jpg) 
+
+![Simnibs Cifti Tools Efield Generation Flow Diagram](/Users/amalaaden/Documents/GitHub/simnibs_cifti_tools_RTD/docs/images/TMS_flow.jpg)
 
