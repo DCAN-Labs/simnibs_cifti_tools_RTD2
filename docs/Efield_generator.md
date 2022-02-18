@@ -1,16 +1,21 @@
- ## Function Overview 
+ Function Overview 
+===============
 
 
- ## System Requirements 
+System Requirements 
+--------------- 
 
 
- ## Inputs 
+Inputs 
+--------------- 
 
 
- ## Outputs 
+Outputs 
+---------------
 
 
- ## Usage Examples 
+Usage Examples 
+--------------- 
 
 
 ![Simnibs Cifti Tools Efield Generation Flow Diagram](TMS_flow.jpg)
