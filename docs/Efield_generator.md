@@ -1,1 +1,2 @@
-## Examples on how to run   
+ 
+![Simnibs Cifti Tools Efield Generation Flow Diagram](TMS_flow.jpg) 
