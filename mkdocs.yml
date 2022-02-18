@@ -7,7 +7,7 @@ pages:
 - Project Overview: project_overview.md 
 - System Requirements: system_requirements.md 
 - Preparation Overview: prep_overview.md 
-- Efield_generator: Efield_generator.md
+- Efield Generator: Efield_generator.md
 - Outputs: outputs.md
 - Known Issues: known_issues.md
 - Contributors: contributors.md
