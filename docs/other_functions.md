@@ -1,6 +1,6 @@
 # Cifti to Volume (Atlas and Native)
 - Description
-  Map the content of a cifti file (dscalars, pscalars, dlabels) into a volume file (yes, no white matter) in both atlas space and in native space. White matter would be filled with NaN's. (check if nifti accept NaN's)
+    Map the content of a cifti file (dscalars, pscalars, dlabels) into a volume file (yes, no white matter) in both atlas space and in native space. White matter would be filled with NaN's. (check if nifti accept NaN's)
 This convertion includes cortical and subcortical structures
 - Input
   - Mandatory
