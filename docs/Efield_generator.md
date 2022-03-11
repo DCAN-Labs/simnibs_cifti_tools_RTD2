@@ -23,6 +23,17 @@ Optional Inputs
 
 Outputs 
 ---------------
+- Efield files
+- - Volume (masked and unmasked)
+- - - atlas
+- - - Native
+- - Surface (gifti and cifti)
+- - - atlas
+- - - Native
+- Coil position : This is a matrix within a text file in Brainsight structure.(Dr Mo provided us one file example that we have to use as reference)
+- Auxiliary outputs
+- - FEM
+
 
 
 Usage Examples 
