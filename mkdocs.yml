@@ -3,7 +3,7 @@ theme: material
 
 plugins:
     - search
-pages:
+nav:
 - Project Overview: project_overview.md 
 - System Requirements: system_requirements.md 
 - Preparation Overview: prep_overview.md 
