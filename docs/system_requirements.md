@@ -10,4 +10,4 @@
 - ?prep overview? 
 
 ## Memory considerations
-Memory and time depends on number of subjects and coordinates of interest. The amount of space required can be estimated using _____ (equation from google sheet)  calculator)______. In the usage example, we ran ___ partipants analyzing ___ coordinates for each partipant. This example required _(space)__ GB of space and completed in __(amt of time)____. 
+Memory and time depends on number of subjects and coordinates of interest. The amount of space required can be estimated using _____ (equation from google sheet)  calculator)______. In the usage example, we ran ___ partipants analyzing ___ coordinates for each partipant. This example required _space__ GB of space and completed in __amt of time____. 
