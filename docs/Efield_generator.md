@@ -9,7 +9,7 @@ This function takes as input the path to a processed data ([BIDS outputs](https:
 
 ### Mandatory System Requirements  
 
-In order to run the efield generator, the fuction requires the following:
+In order to run the Efield generator, the fuction requires the following:
 
 - Path to processed data (derivatives): To optamize the function, BIDS format works best. This needs to contain the T1 nifti file and optionally the T2 nifti file 
 
@@ -23,16 +23,18 @@ Grayordinate.
 
 
 ### Outputs 
+The Efield generator creates the following functions:
+
 - Efield files
-- - Volume (masked and unmasked)
-- - - atlas
-- - - Native
-- - Surface (gifti and cifti)
-- - - atlas
-- - - Native
-- Coil position : This is a matrix within a text file in Brainsight structure.(Dr Mo provided us one file example that we have to use as reference)
-- Auxiliary outputs
-- - FEM
+  - Volume (masked and unmasked)
+    - Atlas
+    - Native
+  - Surface (gifti and cifti)
+    - atlas
+    - Native
+  - Coil position : This is a matrix within a text file in Brainsight structure.(Dr Mo provided us one file example that we have to use as reference)
+  - Auxiliary outputs
+    - FEM
 
 ## Running an Example 
 
