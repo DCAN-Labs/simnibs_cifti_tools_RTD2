@@ -1,10 +1,11 @@
- Function Overview 
-===============
+# Function Overview 
 
 This function takes as input the path to a processed data ([BIDS outputs](https://bids.neuroimaging.io)) and the atlas (or Native) coordinates of the target to stimulate and based on that generates the corresponding Efield distribution. 
 
-Mandatory System Requirements 
---------------- 
+## Data Preparation
+
+
+### Mandatory System Requirements  
 
 In order to run the efield generator, the fuction requires the following:
 
@@ -17,12 +18,10 @@ Grayordinate.
 
 
 
-Optional Inputs 
---------------- 
+### Optional Inputs 
 
 
-Outputs 
----------------
+### Outputs 
 - Efield files
 - - Volume (masked and unmasked)
 - - - atlas
@@ -36,8 +35,7 @@ Outputs
 
 
 
-Usage Examples 
---------------- 
+### Usage Examples 
 
 
 ![Simnibs Cifti Tools Efield Generation Flow Diagram](TMS_flow.jpg)
