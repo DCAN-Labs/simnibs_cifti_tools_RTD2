@@ -7,9 +7,8 @@ nav:
 - Project Overview: project_overview.md 
 - System Requirements: system_requirements.md 
 - Preparation Overview: prep_overview.md 
-- Simnibs Cifti Tools Pipeline: 
-    - Efield Generator: Efield_generator.md
-    - Other Fuctions: other_functions.md 
+- Efield Generator: Efield_generator.md
+- Utilities: Utilities.md 
 - Outputs: outputs.md
 - Known Issues: known_issues.md
 - Contributors: contributors.md
