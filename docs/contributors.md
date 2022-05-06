@@ -1,3 +1,4 @@
 # Project Contributors
-Amal Adeen
+Cristian Morales Carrasco
+Amal Aaden
 Oscar Miranda-Dominguez
