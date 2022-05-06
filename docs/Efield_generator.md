@@ -32,7 +32,7 @@ The Efield generator creates the following functions:
   - Surface (gifti and cifti)
     - atlas
     - Native
-  - Coil position : This is a matrix within a text file in Brainsight structure.(Dr Mo provided us one file example that we have to use as reference)
+  - Coil position : This is a matrix within a text file in Brainsight structure
   - Auxiliary outputs
     - FEM
 
