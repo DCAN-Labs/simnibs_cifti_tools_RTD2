@@ -5,8 +5,7 @@ plugins:
     - search
 nav:
 - Project Overview: project_overview.md 
-- System Requirements: system_requirements.md 
-- Preparation Overview: prep_overview.md 
+- Installation and set-up: Installation and set-up.md 
 - Efield Generator: Efield_generator.md
 - Utilities: Utilities.md 
 - Outputs: outputs.md
