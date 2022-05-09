@@ -6,7 +6,7 @@ This convertion includes cortical and subcortical structures
     - Cifti file , File that contain the values to be mapped into the volume. 
     - Cortical ribbons (pial and white matter, left and right)
     - Subject Volume reference (can be native or atlas, but same as used in the cifti file used as input)
-    - Optional
+  - Optional
     - Atlas to native transformation matrix
 - Outputs : Output volume in same space 
 
