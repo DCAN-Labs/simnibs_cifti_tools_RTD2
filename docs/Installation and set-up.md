@@ -13,6 +13,7 @@ Path to data example: /home/miran045/shared/data/MSC_to_DCAN/sub-MSC01/ses-func0
 ![Defining output folder](outputfoler_image.png) 
 5. In the submit_jobs folder, edit the list_coord2 file with the desired number of coordinates in the following X Y Z format with one coordinate per line. If the desired output folder does not have the FEM calculated already, edit list_coord1 with one coordinate to allow for FEM calculation  
 ![Selecting Coords.](list_coord2_image.png) 
-6. Once subject data, coordinates, and output folder have been defined, run the script submit_jobs.sh to request resources and submit all jobs at once
+6. Depending on if the coordinate is in atlas or native space, edit the _________ 
+7. Once subject data, coordinates, and output folder have been defined, run the script submit_jobs.sh to request resources and submit all jobs at once
     
      <em>Source submit_jobs.sh</em>
