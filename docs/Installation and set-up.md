@@ -15,4 +15,4 @@ Path to data example: /home/miran045/shared/data/MSC_to_DCAN/sub-MSC01/ses-func0
 ![Selecting Coords.](list_coord2_image.png) 
 6. Once subject data, coordinates, and output folder have been defined, run the script submit_jobs.sh to request resources and submit all jobs at once
     
-  _  Source submit_jobs.sh_
+     <em>Source submit_jobs.sh</em>
