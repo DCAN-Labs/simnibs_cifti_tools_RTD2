@@ -38,6 +38,9 @@ The Efield generator creates the following functions:
 
 ## Running an Example 
 
+1) prepare the preprocessed data, and a set of coordinates in Native or Atlas
+2) download the submit jobs folder (or clone it into the )
+
 ## Exploring Outputs 
 
 ## Considerations 
