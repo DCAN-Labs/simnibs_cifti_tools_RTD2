@@ -6,7 +6,7 @@ plugins:
 nav:
 - Project Overview: project_overview.md 
 - Installation and set-up: Installation and set-up.md 
-- Dependencies: Dependencies.md
+- Dependencies: dependencies.md
 - Efield Generator: Efield_generator.md
 - Utilities: Utilities.md 
 - Outputs: outputs.md
