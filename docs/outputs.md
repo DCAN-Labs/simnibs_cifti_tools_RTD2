@@ -1,4 +1,4 @@
-## What is produced 
+## Output Folder Structure 
 Once a run is completed, all the files will be saved in the folder you defined as output folder (in this example is `/home/example1/Pilottest`). This folder will contain the following subfolders:
 
 ```markdown
@@ -26,7 +26,7 @@ Once a run is completed, all the files will be saved in the folder you defined a
                        ├── subject_overlays            
                        └── subject_volumes              
                    └── opt                 
-
+                └── FEM
 ```
         
-## What to do with outputs?
+## Exploring Outputs 
