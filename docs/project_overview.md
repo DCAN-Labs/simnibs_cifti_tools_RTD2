@@ -4,4 +4,4 @@ Simnibs cifti tools is an end-to-end standardized toolbox for coil localization 
 
 Simnibs-cifti-tools uses the outputs of the ABCD-HCP preprocessed MRI files and a set of coordinates of interest as the target to stimulate.The generated outputs, a FEM, the optimal coil position and orientation, the Electric field projected on the cortex as volume and as a surface, both in native and atlas space are stored in a standardized format. Using this strcture enables the pipleine to run multiple jobs in a computer cluster. 
 
-The toolbox is developed according to the (NMIND initiative)[https://www.nmind.org/] coding and documentation practices and is intended to be released as a public repository to facilitate reliable and scalable data analysis as well as planning neuronavigated TMS interventions at the individual level. 
+The toolbox is developed according to the [NMIND initiative](https://www.nmind.org/) coding and documentation practices and is intended to be released as a public repository to facilitate reliable and scalable data analysis as well as planning neuronavigated TMS interventions at the individual level. 
