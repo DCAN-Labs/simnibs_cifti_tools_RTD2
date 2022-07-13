@@ -141,7 +141,9 @@ Once a run is completed, all the files will be saved in the folder you defined a
 ### FEM
 
 This pipeline calculates the the Finite element model (FEM) for each subject  Once the Finite element model (FEM) is generated, multiple coordinates can be run in parallel. This pipeline calculates the the Finite element model (FEM) for each subject  Once the Finite element model (FEM) is generated, multiple coordinates can be run in parallel. This pipeline calculates the the Finite element model (FEM) for each subject  Once the Finite element model (FEM) is generated, multiple coordinates can be run in parallel. 
+
 ![Simnibs Cifti Tools FEM](SimnibsCiftiTools_FEM.jpg) 
+FEM image opened in Gmesh
 
 ### Optimization Matrix 
 
