@@ -156,7 +156,11 @@ The matrix defining coil position and directions has the form
 [matrix ]
 ``` 
 ### Efield Volume 
-Simnibs Cifti Tools produces Efield volumes in subject native and atlas (MNI) space. 
+Simnibs Cifti Tools produces Efield volumes in subject native and atlas (MNI) space. In this example, the target coordinate (to be stimulated) is 
+
+```markdown 
+-44 -30 55
+```   
 
 #### Efield Volume Atlas 
 ![Simnibs Cifti Tools Efield Cifti Atlas](sub-MSC01_coord_-44x_-30y_55z_VolumeAtlas.jpg)
