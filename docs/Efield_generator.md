@@ -159,20 +159,20 @@ The matrix defining coil position and directions has the form
 Simnibs Cifti Tools produces Efield volumes in subject native and atlas (MNI) space. 
 
 #### Efield Volume Atlas 
-![Simnibs Cifti Tools Efield Cifti Atlas](sub-MSC01:coord_-44x_-30y_55z:VolumeAtlas.jpg)
+![Simnibs Cifti Tools Efield Cifti Atlas](sub-MSC01_coord_-44x_-30y_55z_VolumeAtlas.jpg)
 
 #### Efield Volume Native 
-![Simnibs Cifti Tools Efield Cifti Native](sub-MSC01:coord_-44x_-30y_55z:VolumeNative.jpg)
+![Simnibs Cifti Tools Efield Cifti Native](sub-MSC01_coord_-44x_-30y_55z_VolumeNative.jpg)
 
 
 
 ### Efield Cifti 
 The pipline includes Connectivity Informatics Technology Initiative (CIFTI) files. Cifti file format supports a variety of connectome-specific data representations as cortical gray matter data modeled on surfaces and subcortical gray matter data modeled in volumetric parcels. CIFTI format ensures that all grayordinates will be aligned between subjects.
 #### Efield Cifti Atlas 
-![Simnibs Cifti Tools Efield Cifti Atlas](sub-MSC01:coord_-44x_-30y_55z:CiftiAtlas.jpg) 
+![Simnibs Cifti Tools Efield Cifti Atlas](sub-MSC01_coord_-44x_-30y_55z_CiftiAtlas.jpg) 
 
 #### Efield Cifti Native 
-![Simnibs Cifti Tools Efield Cifti Native](sub-MSC01:coord_-44x_-30y_55z:ciftiNative.jpg) 
+![Simnibs Cifti Tools Efield Cifti Native](sub-MSC01_coord_-44x_-30y_55z_ciftiNative.jpg) 
 
 
 
