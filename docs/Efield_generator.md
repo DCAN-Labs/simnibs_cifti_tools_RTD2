@@ -105,7 +105,74 @@ The current parameters requested as resources were tested to be suficient to run
 ```
 
 
+## Output Folder Structure 
+Once a run is completed, all the files will be saved in the folder you defined as output folder (in this example is `/home/example1/Pilottest`). This folder will contain the following subfolders:
+
+```markdown
+├── /home/example1  
+    ├── Pilottest
+        └── SubjectID        
+            └── session
+                ├── coord_x_y_z
+                   └── derivatives
+                       └── Atlas
+                       └── Native                   
+                   ├── Efield
+                       └── Cifti
+                           └── Atlas
+                           └── Native 
+                       ├── Surface
+                           └── Atlas
+                           └── Native                   
+                       └── Volume
+                           └── Atlas
+                           └── Native                  
+                   ├── sim
+                       └── fsavg_overlays
+                       ├── mni_volumes                
+                       ├── subject_overlays            
+                       └── subject_volumes              
+                   └── opt                 
+                └── FEM
+```
+        
 ## Exploring Outputs 
+
+### FEM
+
+This pipeline calculates the the Finite element model (FEM) for each subject  Once the Finite element model (FEM) is generated, multiple coordinates can be run in parallel. This pipeline calculates the the Finite element model (FEM) for each subject  Once the Finite element model (FEM) is generated, multiple coordinates can be run in parallel. This pipeline calculates the the Finite element model (FEM) for each subject  Once the Finite element model (FEM) is generated, multiple coordinates can be run in parallel. 
+![Simnibs Cifti Tools FEM](SimnibsCiftiTools_FEM.jpg) 
+
+### Optimization Matrix 
+
+Based on the desired coordinates of simulation, the pipleine produces and stores the the optimal coordinate postion for all cases. Simnibs Cifti Tools also converts the matrix into a form ready for [Brainsight](https://brainbox-neuro.com/products/brainsight-tms-navigation), a neuronavigation system that is essential in improving the accuracy, reliability, and repeatability of non-invasive brain stimulation experiments. 
+
+The matrix defining coil position and directions has the form
+
+```markdown 
+[matrix ]
+``` 
+### Efield Volume 
+Simnibs Cifti Tools produces Efield volumes in subject native and atlas (MNI) space. 
+
+#### Efield Volume Atlas 
+![Simnibs Cifti Tools Efield Cifti Atlas](sub-MSC01:coord_-44x_-30y_55z:VolumeAtlas.png)
+
+#### Efield Volume Native 
+![Simnibs Cifti Tools Efield Cifti Native](sub-MSC01:coord_-44x_-30y_55z:VolumeNative.png)
+
+
+
+### Efield Cifti 
+The pipline includes Connectivity Informatics Technology Initiative (CIFTI) files. Cifti file format supports a variety of connectome-specific data representations as cortical gray matter data modeled on surfaces and subcortical gray matter data modeled in volumetric parcels. CIFTI format ensures that all grayordinates will be aligned between subjects.
+#### Efield Cifti Atlas 
+![Simnibs Cifti Tools Efield Cifti Atlas](sub-MSC01:coord_-44x_-30y_55z:CiftiAtlas.png)
+
+#### Efield Cifti Native 
+![Simnibs Cifti Tools Efield Cifti Native](sub-MSC01:coord_-44x_-30y_55z:ciftiNative.png)
+
+
+
 
 ## Considerations 
 Memory and time depends on number of subjects and coordinates of interest. The amount of space required can be estimated using ( equation from google sheet). In the usage example, we ran (#) partipants analyzing (#) coordinates for each partipant. This example required (#) GB of space and completed in(amt of time).
