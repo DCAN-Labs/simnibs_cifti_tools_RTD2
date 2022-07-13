@@ -169,7 +169,7 @@ Simnibs Cifti Tools produces Efield volumes in subject native and atlas (MNI) sp
 ### Efield Cifti 
 The pipline includes Connectivity Informatics Technology Initiative (CIFTI) files. Cifti file format supports a variety of connectome-specific data representations as cortical gray matter data modeled on surfaces and subcortical gray matter data modeled in volumetric parcels. CIFTI format ensures that all grayordinates will be aligned between subjects.
 #### Efield Cifti Atlas 
-![Simnibs Cifti Tools Efield Cifti Atlas](sub-MSC01:coord_-44x_-30y_55z:CiftiAtlas.jpg) 
+![Simnibs Cifti Tools Efield Cifti Atlas](docs/sub-MSC01:coord_-44x_-30y_55z:CiftiAtlas.jpg) 
 
 #### Efield Cifti Native 
 ![Simnibs Cifti Tools Efield Cifti Native](sub-MSC01:coord_-44x_-30y_55z:ciftiNative.jpg) 
