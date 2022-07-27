@@ -7,6 +7,20 @@ This function takes as input the path to a processed data ([BIDS outputs](https:
 
 ## Data Preparation
 
+### Command-Line Arguments
+
+```
+usage: efield_generator.py [-h] [-XYZ_native XYZ_NATIVE [XYZ_NATIVE ...]]
+                           [-XYZ_atlas XYZ_ATLAS [XYZ_ATLAS ...]]
+                           -path_mri_processed_data PATH_MRI_PROCESSED_DATA
+                           -output_folder OUTPUT_FOLDER
+                           -full_path_to_simnibs_container
+                           FULL_PATH_TO_SIMNIBS_CONTAINER
+                           -full_path_to_simnibs_cifti_tools
+                           FULL_PATH_TO_SIMNIBS_CIFTI_TOOLS
+efield_generator.py: error: the following arguments are required: -path_mri_processed_data, -output_folder, -full_path_to_simnibs_container, -full_path_to_simnibs_cifti_tools
+``` 
+
 ### Mandatory System Requirements  
 
 In order to run the Efield generator, the fuction requires the following:
@@ -16,10 +30,6 @@ In order to run the Efield generator, the fuction requires the following:
 - Coordinates of the target to stimulate: X, Y and Z in Native space (or atlas space) Grayordinate. 
 
 - Output folder
-
-
-### Optional Inputs 
-
 
 ### Outputs 
 The Efield generator creates the following functions:
