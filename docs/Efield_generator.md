@@ -18,7 +18,6 @@ usage: efield_generator.py [-h] [-XYZ_native XYZ_NATIVE [XYZ_NATIVE ...]]
                            FULL_PATH_TO_SIMNIBS_CONTAINER
                            -full_path_to_simnibs_cifti_tools
                            FULL_PATH_TO_SIMNIBS_CIFTI_TOOLS
-efield_generator.py: error: the following arguments are required: -path_mri_processed_data, -output_folder, -full_path_to_simnibs_container, -full_path_to_simnibs_cifti_tools
 ``` 
 
 ### Mandatory System Requirements  
