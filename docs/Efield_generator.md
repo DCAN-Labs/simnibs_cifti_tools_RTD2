@@ -162,7 +162,7 @@ Based on the desired coordinates of simulation, the pipleine produces and stores
 The matrix defining coil position and directions has the form
 
 
-$$Optimization Matrix (opt__matrix.txt)= \begin{bmatrix}-0.77304659,,-0.24579915,,,0.58479206,-70.29989339\\
+$$Optimization Matrix (opt_matrix.txt)= \begin{bmatrix}-0.77304659,,-0.24579915,,,0.58479206,-70.29989339\\
 -0.4793134,,,,0.83019517,,-0.28466585,-23.82286829\\
 -0.41552092,,-0.50035864,,-0.75959437,,61.92179034\\
 0.,,,,,,,,,,,0.,,,,,,,,,,,0.,,,,,,,,,,,1.,,,,,,,
