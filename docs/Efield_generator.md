@@ -157,7 +157,7 @@ FEM image opened in Gmesh
 
 ### Optimization Matrix 
 
-Based on the desired coordinates of simulation, the pipleine produces and stores the the optimal coordinate postion for all cases. Simnibs Cifti Tools also converts the matrix into a form ready for Efield generator and [Brainsight](https://brainbox-neuro.com/products/brainsight-tms-navigation), a neuronavigation system that is essential in improving the accuracy, reliability, and repeatability of non-invasive brain stimulation experiments. 
+Based on the desired coordinates of simulation, the pipleine produces and stores the the optimal coordinate postion for all cases. Simnibs Cifti Tools also converts the matrix into a form ready for Efield generator and [Brainsight](https://brainbox-neuro.com/products/brainsight-tms-navigation), a neuronavigation system used in non-invasive brain stimulation experiments. 
 
 The matrix defining coil position and directions will be saved as opt_matrix.txt and has the form
 
