@@ -27,7 +27,7 @@ In order to run the Efield generator, the fuction requires the following:
 
 -path_mri_processed_data: Path to processed data (derivatives) in BIDS format, the processed data needs to contain the T1 nifti file and optionally the T2 nifti file 
 
--XYZ_native or -XYZ_atlas: Coordinates of the target to stimulate X, Y and Z in Native space (or atlas space) Grayordinate. 
+-XYZ_native or -XYZ_atlas: Coordinates of the target to stimulate X, Y and Z in Native space (or atlas space) Grayordinate (Simnibs Cifti Tools is able to convert between 
 
 -output_folder: The generated outputs are stored in a standardized format in the designated output folder. 
 
