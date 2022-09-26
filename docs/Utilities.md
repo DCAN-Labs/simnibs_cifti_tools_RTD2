@@ -1,6 +1,7 @@
-# Aux Tools 
-description of Aux Tools 
+# Utilities 
 
+## Aux Tools 
+description of Aux Tools 
 ```
 def check_if_fem_exist(output_folder):
 “””
@@ -70,7 +71,7 @@ array stores the coordinate of vertex in native space
 ```
 
 
-# Cifti to Volume (Atlas and Native)
+## Cifti to Volume (Atlas and Native)
 - Description : Map the content of a cifti file (dscalars, pscalars, dlabels) into a volume file (yes, no white matter) in both atlas space and in native space. White matter would be filled with NaN's. (check if nifti accept NaN's)
 This convertion includes cortical and subcortical structures
 - Input
@@ -82,10 +83,10 @@ This convertion includes cortical and subcortical structures
       - Atlas to native transformation matrix
 - Outputs : Output volume in same space 
 
-# Volume to Cifti (Atlas and Native)
+## Volume to Cifti (Atlas and Native)
 - Description
 - Input
 - Output
-# Read coordinates from file
-# Cifti to table of coordinates with label (i.e. Network label) (Base for Brain_to_coordinate_text)
-# Extract brain structures (from aseg, dlabel, to cifti and/or volume)
+## Read coordinates from file
+## Cifti to table of coordinates with label (i.e. Network label) (Base for Brain_to_coordinate_text)
+## Extract brain structures (from aseg, dlabel, to cifti and/or volume)
