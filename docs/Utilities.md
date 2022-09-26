@@ -8,7 +8,6 @@ def check_if_fem_exist(output_folder):
 This function checks if the output_folder is an existing directory or not, if the FEM exists, and if the Mesh File exists. If the output folder doesn't exist, it creates a new directory for the output_folder. Based on the existence of the FEM and Mesh file, the function produces a boolean for each variable. If the FEM and or Mesh file doesn't exist, the function returns a false boolean for each variable. 
 Arguments:
 output_folder: path to the output folder to store the results and FEM, if it doesn't exist, it will be created. 
-
 Returns: 
 bool_fem_dir: a binary variable, having two possible values called “true” and “false.” If the FEM exists, the value is true. If the FEM doesn't exist, the value is false. 
 bool_fem_file: a binary variable, having two possible values called “true” and “false.” If the Mesh file exists, the value is true. If the mesh file doesn't exist, the value is false.
@@ -20,7 +19,6 @@ return bool_fem_dir and bool_fem_file
 def get_ids(path_mri_processed_data):
 “””
 From the provided path to processed MRI data, the function creates variables indicating the subject ID and visit. 
-
 Arguments:
 path_mri_processed_data: path to processed MRI data
 Returns: 
