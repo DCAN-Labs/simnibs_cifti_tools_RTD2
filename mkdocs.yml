@@ -1,0 +1,15 @@
+site_name: Simnibs Cifti Tools 
+theme: material
+
+plugins:
+    - search
+nav:
+- Project Overview: project_overview.md 
+- Installation and set-up: Installation and set-up.md 
+- Dependencies: dependancies.md
+- Efield Generator: Efield_generator.md
+- Utilities: Utilities.md 
+- FAQ: FAQ.md
+- Known Issues: known_issues.md
+- Coming Soon: coming_soon.md
+- Contributors: contributors.md
