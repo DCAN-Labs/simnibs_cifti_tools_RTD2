@@ -6,7 +6,8 @@ plugins:
 nav:
 - Project Overview: project_overview.md 
 - Installation and set-up: Installation and set-up.md 
-- Dependencies: dependancies.md
+- Required Imaging Files: dependancies.md
+- Arguments and Flags: args_flags.md
 - Efield Generator: Efield_generator.md
 - Utilities: Utilities.md 
 - FAQ: FAQ.md
