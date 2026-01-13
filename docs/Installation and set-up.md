@@ -11,10 +11,12 @@ All system requirements are satisfied if you use this pipeline while on MSI.
 -   White
 
 4. Ensure you have the full paths to the T1w & T2w of the desired subject in native resolution. 
+5. Have available the full paths to the functional dlabel file you would like to use as well as the subjects **aparc aseg dlabel files**. 
 5. Make your own subject specific settings file script following the example seen at [Sample settings file](https://simnibs-cifti-tools-rtd2.readthedocs.io/en/latest/args_flags/#sample-settings-file)
 6. For an example on using the code for the Efield Generator, follow the instructions at [Running an example](https://simnibs-cifti-tools-rtd2.readthedocs.io/en/latest/Efield_generator/#running-an-example)  
 
 *To resample higher resolution surfaces down to 32k resolution see [FAQ](https://simnibs-cifti-tools-rtd2.readthedocs.io/en/latest/FAQ/)*
+*To generate subject specific aparc aseg dlabel files see [FAQ](https://simnibs-cifti-tools-rtd2.readthedocs.io/en/latest/FAQ/)*
 
 ## System Requirements
 - Simnibs 

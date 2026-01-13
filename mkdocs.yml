@@ -8,6 +8,7 @@ nav:
 - Installation and set-up: Installation and set-up.md 
 - Required Imaging Files: dependancies.md
 - Arguments and Flags: args_flags.md
+- Usage: useage.md
 - Efield Generator: Efield_generator.md
 - Utilities: Utilities.md 
 - FAQ: FAQ.md
