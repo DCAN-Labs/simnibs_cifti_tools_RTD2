@@ -1,17 +1,46 @@
 site_name: Simnibs Cifti Tools 
-theme: material
+theme: 
+  name: material
+  features:
+    - navigation.tabs       # Adds top-level navigation tabs
+    - navigation.sections   # Group navigation into sections
+    - content.code.copy     # Adds a copy button to code blocks
 
 plugins:
-    - search
+  - search
+
+markdown_extensions:
+  # Standard extensions for essential formatting
+  - admonition          # Required for !!! note "Title" blocks
+  - attr_list           # Allows adding CSS classes/styles to Markdown
+  - def_list            # Support for definition lists
+  - footnotes           # Support for [^1] style footnotes
+  - md_in_html          # Allows Markdown inside <div> or other HTML tags
+  - toc:
+      permalink: true   # Adds clickable anchor links next to headers
+
+  # PyMdown Extensions for advanced technical features
+  - pymdownx.highlight: # Superior code syntax highlighting
+      anchor_linenums: true
+  - pymdownx.inlinehilite: # Highlighting for `inline code`
+  - pymdownx.superfences: # Allows nesting and Mermaid diagrams
+  - pymdownx.tabbed:      # Required for [Content Tabs]
+      alternate_style: true
+  - pymdownx.tasklist:    # Required for - [x] task checkboxes
+      custom_checkbox: true
+  - pymdownx.emoji:       # Support for :material-account: icons
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
 nav:
-- Project Overview: project_overview.md 
-- Installation and set-up: Installation and set-up.md 
-- Required Imaging Files: dependancies.md
-- Arguments and Flags: args_flags.md
-- Usage: useage.md
-- Efield Generator: Efield_generator.md
-- Utilities: Utilities.md 
-- FAQ: FAQ.md
-- Known Issues: known_issues.md
-- Coming Soon: coming_soon.md
-- Contributors: contributors.md
+  - Project Overview: project_overview.md 
+  - Installation and set-up: Installation and set-up.md 
+  - Required Imaging Files: dependancies.md
+  - Arguments and Flags: args_flags.md
+  - Usage: useage.md
+  - Efield Generator: Efield_generator.md
+  - Utilities: Utilities.md 
+  - FAQ: FAQ.md
+  - Known Issues: known_issues.md
+  - Coming Soon: coming_soon.md
+  - Contributors: contributors.md
