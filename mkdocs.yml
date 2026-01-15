@@ -38,6 +38,7 @@ nav:
   - Required Imaging Files: dependancies.md
   - Arguments and Flags: args_flags.md
   - Usage: useage.md
+  - Default Example: default_example.md
   - Efield Generator: Efield_generator.md
   - Utilities: Utilities.md 
   - FAQ: FAQ.md
