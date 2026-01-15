@@ -19,6 +19,6 @@ You will also need access to miran045 on MSI for this stage in the tools develop
 
 ### A settings script to update
 
-Copy the [sample settings file](./args_flags.md) and save it as a file to the same location where you downloaded the above files.
+Copy the [sample settings file](./args_flags#sample-settings-file.md) and save it as a file to the same location where you downloaded the above files.
 
-Update the flags in your saved script appropriately based on [argument and flags](.args_flags.md). 
+Update the flags in your saved script appropriately based on [argument and flags](./args_flags#arguments-and-flags.md). 
