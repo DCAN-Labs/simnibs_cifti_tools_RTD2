@@ -10,7 +10,7 @@ You will also need access to miran045 on MSI for this stage in the tools develop
 ### List of files to download in preparation for this tutorial
 
 - Weighted images
-  - [T1w](./basic_example/T1w/T1w_acpc_dc_restore.nii.gz)
+  &nbsp;- [T1w](./basic_example/T1w/T1w_acpc_dc_restore.nii.gz)
   - [T2w](./basic_example/T1w/T2w_acpc_dc_restore.nii.gz)
 - Surface files
   - [L Pial](./basic_example/T1w/fsaverage_LR32k/MSC06.L.pial.32k_fs_LR.surf.gii)
