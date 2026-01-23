@@ -34,15 +34,20 @@ markdown_extensions:
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
 nav:
-  - Project Overview: project_overview.md 
-  - Installation and set-up: Installation and set-up.md 
-  - Required Imaging Files: dependancies.md
-  - Arguments and Flags: args_flags.md
-  - Usage: useage.md
-  - Default Example: default_example.md
-  - Efield Generator: Efield_generator.md
-  - Utilities: Utilities.md 
-  - FAQ: FAQ.md
-  - Known Issues: known_issues.md
+  - Overview: project_overview.md 
+  - Installation: Installation.md 
+  - Quickstart Guide: quickstart_guide.md
+  - Complete List of Arguments: args_flags.md
+  - Outputs: Outputs.md
+  - Modularized Tools: Utilities.md 
+  - Tutorials: default_example.md
+  - Troubleshooting: troubleshooting.md
   - Coming Soon: coming_soon.md
   - Contributors: contributors.md
+
+  # - Required Imaging Files: dependancies.md
+  # - Usage: useage.md
+  # - Efield Generator: Efield_generator.md
+  # - FAQ: FAQ.md
+
+
