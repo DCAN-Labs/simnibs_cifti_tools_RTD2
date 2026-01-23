@@ -1,4 +1,13 @@
-## Output Folder Structure 
+# Outputs
+
+## Stage 1: Setup
+
+## Stage 2: Simulations
+
+## Stage 3: Optimal Targeting
+
+## Output Folder Structure Old
+
 Once a run is completed, all the files will be saved in the folder you defined as output folder (in this example is `/home/example1/Pilottest`). This folder will contain the following subfolders:
 
 ```markdown
@@ -28,5 +37,5 @@ Once a run is completed, all the files will be saved in the folder you defined a
                    └── opt                 
                 └── FEM
 ```
-        
-## Exploring Outputs 
+
+## Exploring Outputs Old
