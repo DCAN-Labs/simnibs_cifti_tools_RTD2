@@ -1,13 +1,15 @@
-# Basic Example
+# Tutorials
+
+## Basic Example
 
 The goal of this document is to aid in using Simnibs Cifti Tools with the default settings.
 
-## File Setup
+### File Setup
 
 In order to follow along with this document you will need to download the below files and have them all in a directory where you will be following along with this tutorial.
 You will also need access to miran045 and faird on MSI for this stage in the tools development.
 
-### List of files to download in preparation for this tutorial
+#### List of files to download in preparation for this tutorial
 
 Weighted images
 
@@ -83,7 +85,7 @@ ${path_to_sct_repo}/preprocessing/settings_file_reader.sh \
 
 *For other usages update the flags in your saved script appropriately based on [argument and flags](./args_flags#arguments-and-flags.md).*
 
-## Starting Simnibs Cifti Tools
+### Starting Simnibs Cifti Tools
 
 To begin the process of finding optimal targets execute the below command.
 
