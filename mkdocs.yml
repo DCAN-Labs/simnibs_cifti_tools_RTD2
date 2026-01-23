@@ -37,7 +37,7 @@ nav:
   - Overview: project_overview.md 
   - Installation: Installation.md 
   - Quickstart Guide: quickstart_guide.md
-  - Complete List of Arguments: args_flags.md
+  - Users Guide: args_flags.md
   - Outputs: Outputs.md
   - Modularized Tools: Utilities.md 
   - Tutorials: default_example.md
