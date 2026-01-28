@@ -2,6 +2,43 @@
 
 ## Full Arguments Table
 
+| Flag                | Description                                                                 |
+|---------------------|-----------------------------------------------------------------------------|
+| `--SID`         | Subject ID.                                |
+| `--VISIT`     | Session identifier.                    |
+| `--simnibs_container` | Path to the SimNIBS v3 Singularity container (`.sif`).                    |
+| `--simnibs_version` | SimNIBS version string (e.g., `3`).                                        |
+| `--OUTPUT_FOLDER` | Root Output directory        |
+| `--P_SCT_REPO` | Path to where Simnibs Cifti Tools repository is cloned.      |
+| `--brain_target`       | Specify how you would like optimal targeting to be performed.                    |
+| Available options:     |   *all, dlpfc, {Sal}, any combination of functional brain networks space separated*                       |
+| `--threshold`       | Specify which threshold you would like to calculate the optimal targeting solution to be set to                  |
+| `--coil_name`       | Coil name (must match an existing SimNIBS coil).                                        |
+| `--P_L_mdthk_atlas`       | Specify a full path to the left midthickness surface file in atlas space                  |
+| `--P_R_mdthk_atlas`       | Specify a full path to the right midthickness surface file in atlas space                  |
+| `--P_L_mdthk_native`       | Specify a full path to the left midthickness surface file in native space                  |
+| `--P_R_mdthk_native`       | Specify a full path to the right midthickness surface file in native space                  |
+| `--P_L_pial_atlas`       | Specify a full path to the left pial surface file in atlas space                  |
+| `--P_R_pial_atlas`       | Specify a full path to the right pial surface file in atlas space                  |
+| `--P_L_pial_native`       | Specify a full path to the left pial surface file in native space                  |
+| `--P_R_pial_native`       | Specify a full path to the right pial surface file in native space                  |
+| `--P_L_white_atlas`       | Specify a full path to the left white surface file in atlas space                  |
+| `--P_R_white_atlas`       | Specify a full path to the right white surface file in atlas space                  |
+| `--P_L_white_native`       | Specify a full path to the left white surface file in native space                  |
+| `--P_R_white_native`       | Specify a full path to the right white surface file in native space                  |
+| `--P_L_inflated`       | Specify a full path to a left inflated surface file in 32k resolution                  |
+| `--P_R_inflated`       | Specify a full path to a right inflated surface file in 32k resolution                  |
+| `--P_T1w`       | Specify a full path to the T1w file                  |
+| `--P_T2w`       | Specify a full path to the T2w file                  |
+| `--P_F_dlabel`       | Specify a full path to the functional dlabel file                  |
+| `--P_A_dlabel`       | Specify a full path to the aparc aseg dlabel file in 32k resolution                  |
+| `--P_A_dlabel_2009`       | Specify a full path to the apar aseg a2009s dlabel file                  |
+| `--brain_target_2`       | Specify which additional functional brain target you would like simulated.                   |
+| `--find_the_best_by`       | Specify how to optimize the target.                   |
+| Available options:   |   *cummulative_energy_within_target, percent_target_covered, relative_energy_in_target, relative_energy_off_target, relative_area_in_target, relative_area_off_target*                       |
+| `--scan_islands`       | Enter a 1 if you'd like to use this additional processing step                   |
+| `--help`   |    Display the help message                       |
+
 ## Available TMS Coils
 
 **(Pulled from the SimNIBS repository updated Sept 30, 2025)**  
