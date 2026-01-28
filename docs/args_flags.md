@@ -1,5 +1,7 @@
 # Users Guide
 
+This guide is organized into a full arguments table as well as sections that break this down based on required, targeting options, and hardware configuration. Next we have included documentation regarding available options for TMS coil selection for simulations. Finally we have included documentation about settings file setup with a sample settings file script.
+
 ## Full Arguments Table
 
 | Flag                | Description                                                                 |
@@ -38,6 +40,18 @@
 | Available options:   |   *cummulative_energy_within_target, percent_target_covered, relative_energy_in_target, relative_energy_off_target, relative_area_in_target, relative_area_off_target*                       |
 | `--scan_islands`       | Enter a 1 if you'd like to use this additional processing step                   |
 | `--help`   |    Display the help message                       |
+
+### Required Arguments
+
+Input and Output, native paths
+
+### Targeting Options
+
+Brain regions, coordinates, or networks.
+
+### Hardware Configuration
+
+Coil types and such
 
 ## Available TMS Coils
 
@@ -103,9 +117,32 @@ Specify any coil from the lists above:
 --coil_name Magstim_70mm_Fig8.ccd
 ```
 
-## Sample Settings Script
+## Settings Script setup
 
-### Sample settings file old
+To use this tool in a reproducable way it is recommended to create a bash script that contains all of the desired arguments and settings which are desired. It is possible to run this software from the command line using the desired arguments however this is discouraged for lack of ease while troubleshooting and rerunning.
+
+A settings script begins with the path to where your cloned version of Simnibs Cifti Tools is calling the settings_file_reader.sh.
+
+```bash
+/projects/standard/miran045/shared/code/internal/pipelines/simnibs_cifti_tools/wip_k_branch/simnibs_cifti_tools/preprocessing/settings_file_reader.sh
+```
+
+From here you add the argument with its matching response like below.
+
+```bash
+simnibs_cifti_tools/preprocessing/settings_file_reader.sh \
+--SID sub-fake01
+```
+
+This process continues ensuring you add a `\` symbol a space after the prior argument pairing then starting the next argument on a new line until you have completed adding all of the required arguments and updated the targeting options for the specific task.
+
+Save this script with any file name you would like. This script gets executed to start the process. Below is a sample way to do so if the script were named **test_settings_script.txt**
+
+```bash
+bash test_settings_script.txt
+```
+
+### Sample settings file
 
 To use replace 'sub-fake01' with the actual subjectID & replace 'ses-fake01' with the actual session identifier.
 After running the intial steps to obtain the necessary input files.
