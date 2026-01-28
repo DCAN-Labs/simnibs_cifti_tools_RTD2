@@ -5,7 +5,7 @@ theme:
     # - navigation.tabs       # Adds top-level navigation tabs
     - navigation.sections   # Group navigation into sections
     - content.code.copy     # Adds a copy button to code blocks
-    - navigation.expand     # Optional: Keeps the sidebar sections expanded by default
+    # - navigation.expand     # Optional: Keeps the sidebar sections expanded by default
 
 plugins:
   - search
